@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import './app/scss/reset.scss';
+@import './app/scss/layout.scss';
+@import './app/scss/forms.scss';
+@import './app/scss/table.scss';
+@import './app/scss/icons.scss';
+
+html, body {
+  font: 14px "Ubuntu",Tahoma,arial, sans-serif
+}

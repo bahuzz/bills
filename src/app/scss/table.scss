@@ -1,0 +1,16 @@
+.table {
+  margin-bottom: 20px;
+  td,th {
+    border: 1px solid rgb(189, 188, 188);
+    padding: 10px;
+  }
+  th {
+    background-color: lavender;
+  }
+  td:first-child {
+    background-color: lemonchiffon;
+  }
+}
+.tac {
+  text-align: center;
+}

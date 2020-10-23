@@ -1,0 +1,12 @@
+.icon {
+  cursor: pointer;
+  display: inline-block;
+  &-del {
+    border-radius: 50%;
+    background-color: rgb(221, 48, 48);
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+  }
+}

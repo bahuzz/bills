@@ -1,0 +1,23 @@
+<form
+  [formGroup]="addBillForm"
+  (ngSubmit)="onSubmit()"
+  class="mb-2"
+  >
+  <input
+    type="text"
+    formControlName="name"
+    placeholder="Наименование платежа*"
+    class="input-text mr-1"
+    >
+  <input
+    type="number"
+    formControlName="price"
+    placeholder="Стоимость за день*"
+    class="input-text mr-1"
+    >
+   <button
+    type="submit"
+    [disabled]="!addBillForm.valid"
+    class="btn btn-green"
+    >Добавить</button>
+</form>

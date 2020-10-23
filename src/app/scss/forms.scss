@@ -1,0 +1,21 @@
+.input-text {
+  border: 1px solid rgb(189, 188, 188);
+  border-radius: 3px;
+  padding: 6px 10px;
+}
+.btn {
+  border-radius: 3px;
+  border: 1px solid rgb(189, 188, 188);
+  padding: 6px 10px;
+  background-color: #fff;;
+  color: #333;
+  &:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+  }
+  &-green {
+    background:#28a745;
+    border: 1px solid #28a745;
+    color: #fff;
+  }
+}
